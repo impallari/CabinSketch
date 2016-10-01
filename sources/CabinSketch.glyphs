@@ -1,5 +1,5 @@
 {
-.appVersion = "919";
+.appVersion = "924";
 copyright = "Copyright 2011 The Cabin Project Authors (impallari@gmail.com)";
 customParameters = (
 {
@@ -22,6 +22,10 @@ value = IMPA;
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2016-09-01 10:40:38 +0000";
@@ -152396,21 +152400,6 @@ width = 216;
 },
 {
 color = (31,255,0,1);
-glyphname = .null;
-lastChange = "2016-09-16 09:08:15 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 0;
-},
-{
-layerId = "3F1DF649-D6F2-4E50-8683-C55FE87525E8";
-width = 0;
-}
-);
-},
-{
-color = (31,255,0,1);
 glyphname = cent;
 lastChange = "2016-09-01 10:36:15 +0000";
 layers = (
@@ -198247,7 +198236,7 @@ unicode = 02DC;
 },
 {
 glyphname = NULL;
-lastChange = "2016-09-16 09:08:15 +0000";
+lastChange = "2016-10-01 09:52:17 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -198258,6 +198247,7 @@ layerId = "3F1DF649-D6F2-4E50-8683-C55FE87525E8";
 width = 0;
 }
 );
+unicode = 0000;
 }
 );
 disablesAutomaticAlignment = 1;
@@ -200430,6 +200420,16 @@ q = -37;
 six = -16;
 slash = -51;
 };
+softhyphen = {
+"@MMK_R_Y" = -31;
+"@MMK_R_Z" = -25;
+T = -32;
+V = -8;
+X = -22;
+seven = -19;
+two = -20;
+x = -16;
+};
 t = {
 "@MMK_R_A" = -9;
 "@MMK_R_C" = -11;
@@ -200488,16 +200488,6 @@ trademark = {
 "@MMK_R_A" = -10;
 "@MMK_R_Z" = -12;
 AE = -13;
-};
-softhyphen = {
-"@MMK_R_Y" = -31;
-"@MMK_R_Z" = -25;
-T = -32;
-V = -8;
-X = -22;
-seven = -19;
-two = -20;
-x = -16;
 };
 v = {
 "@MMK_R_A" = -38;
@@ -202725,6 +202715,16 @@ q = -37;
 six = -16;
 slash = -51;
 };
+softhyphen = {
+"@MMK_R_Y" = -31;
+"@MMK_R_Z" = -25;
+T = -32;
+V = -8;
+X = -22;
+seven = -19;
+two = -20;
+x = -16;
+};
 t = {
 "@MMK_R_A" = -9;
 "@MMK_R_C" = -11;
@@ -202783,16 +202783,6 @@ trademark = {
 "@MMK_R_A" = -10;
 "@MMK_R_Z" = -12;
 AE = -13;
-};
-softhyphen = {
-"@MMK_R_Y" = -31;
-"@MMK_R_Z" = -25;
-T = -32;
-V = -8;
-X = -22;
-seven = -19;
-two = -20;
-x = -16;
 };
 v = {
 "@MMK_R_A" = -38;
