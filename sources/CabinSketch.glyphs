@@ -198300,14 +198300,6 @@ value = (
 "0",
 "4"
 );
-},
-{
-name = postscriptFullName;
-value = "Cabin Sketch Bold";
-},
-{
-name = compatibleFullName;
-value = "Cabin Sketch Bold";
 }
 );
 interpolationWeight = 700;
